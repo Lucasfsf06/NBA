@@ -27,6 +27,7 @@
     .sw:hover{
       fill:#ffe600;
     }
+
     .nw:hover {
       fill: #ff9900;
     }
@@ -95,6 +96,8 @@
     tr:nth-child(even) {
       background-color: #dddddd;
     }
+
+tr:hover {background-color: #D6EEEE;}
   
   h2{
     text-align: center;
