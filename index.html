@@ -16,6 +16,89 @@
     <script src="states.js"></script>
 </head>
 
+	<style>
+				    .atlantic:hover{
+  fill:#000dff;
+}
+.central:hover{
+  fill:#00e5ff;
+}
+.se:hover{
+  fill:#8400ff;
+}
+.sw:hover{
+  fill:#ffe600;
+}
+.nw:hover {
+  fill: #ff9900;
+}
+.pacific:hover{
+  fill:#ff001e;
+}
+
+#state-info {
+  position:fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: none;
+  pointer-events: none; 
+}
+
+.At {
+  width: 20px;
+  height: 20px;
+  background: #000dff;
+}
+
+.C {
+  width: 20px;
+  height: 20px;
+  background: #00e5ff;
+}
+
+.Se {
+  width: 20px;
+  height: 20px;
+  background: #8400ff;
+}
+
+.Nw {
+  width: 20px;
+  height: 20px;
+  background: #ff9900;
+}
+
+.P {
+  width: 20px;
+  height: 20px;
+  background: #ff001e;
+}
+
+.Sw {
+  width: 20px;
+  height: 20px;
+  background: #ffe600;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 30%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 2px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+			    </style>
+
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:#046db2;">
         <div class="container">
@@ -124,6 +207,7 @@
 
         <hr>
 
+
         <footer>
             <div class="row">
                 <div class="col-md-12">
@@ -157,88 +241,6 @@
                             }
                           </script>
 
-			    <style>
-				    .atlantic:hover{
-  fill:#000dff;
-}
-.central:hover{
-  fill:#00e5ff;
-}
-.se:hover{
-  fill:#8400ff;
-}
-.sw:hover{
-  fill:#ffe600;
-}
-.nw:hover {
-  fill: #ff9900;
-}
-.pacific:hover{
-  fill:#ff001e;
-}
-
-#state-info {
-  position:fixed;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-  display: none;
-  pointer-events: none; 
-}
-
-.At {
-  width: 20px;
-  height: 20px;
-  background: #000dff;
-}
-
-.C {
-  width: 20px;
-  height: 20px;
-  background: #00e5ff;
-}
-
-.Se {
-  width: 20px;
-  height: 20px;
-  background: #8400ff;
-}
-
-.Nw {
-  width: 20px;
-  height: 20px;
-  background: #ff9900;
-}
-
-.P {
-  width: 20px;
-  height: 20px;
-  background: #ff001e;
-}
-
-.Sw {
-  width: 20px;
-  height: 20px;
-  background: #ffe600;
-}
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 30%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 2px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-			    </style>
 			    
                           
                           <div id="state-info" class="state-info"></div>
