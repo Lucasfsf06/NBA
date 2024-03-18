@@ -1,0 +1,33 @@
+    .STAR_9 {
+    max-width: 33rem;
+    background: #fff;
+    margin: 0 1rem;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-align: center;
+    }
+    .star_9 {
+    font-size: 4vh;
+    cursor: pointer;
+    }
+    
+    .one_9 {
+    color: rgba(228, 201, 0, 0.956);
+    }
+    
+    .two_9 {
+    color: rgb(228, 201, 0, 0.956);
+    }
+    
+    .three_9 {
+    color: rgb(228, 201, 0, 0.956);
+    }
+    
+    .four_9 {
+    color: rgb(228, 201, 0, 0.956);
+    }
+    
+    .five_9 {
+    color: rgb(228, 201, 0, 0.956);
+    }

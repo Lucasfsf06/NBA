@@ -1,0 +1,33 @@
+    .STAR_5 {
+    max-width: 33rem;
+    background: #fff;
+    margin: 0 1rem;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0.5rem;
+    text-align: center;
+    }
+    .star_5 {
+    font-size: 4vh;
+    cursor: pointer;
+    }
+    
+    .one_5 {
+    color: rgba(228, 201, 0, 0.956);
+    }
+    
+    .two_5 {
+    color: rgb(228, 201, 0, 0.956);
+    }
+    
+    .three_5 {
+    color: rgb(228, 201, 0, 0.956);
+    }
+    
+    .four_5 {
+    color: rgb(228, 201, 0, 0.956);
+    }
+    
+    .five_5 {
+    color: rgb(228, 201, 0, 0.956);
+    }
